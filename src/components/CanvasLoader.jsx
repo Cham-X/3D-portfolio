@@ -8,6 +8,7 @@ function CanvasLoader() {
         <Html
             as="div"
             center
+
             style={{
                 display: 'flex',
                 justifyContent: 'center',
