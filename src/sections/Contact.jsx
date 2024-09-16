@@ -1,6 +1,11 @@
 import { useRef, useState } from "react"
 import emailjs from "@emailjs/browser"
 
+
+const serviceID = "service_cjaoh7u";
+const templateID = "template_xp5krkj";
+const publicKey = "YzXVqv-WfojxDY6qt";
+
 const Contact = () => {
 
     const formRef = useRef()
@@ -13,22 +18,45 @@ const Contact = () => {
 
     const [loading, setLoading] = useState(false)
 
-    const handleChange = ({ name, value }) => {
+    const handleChange = ({ target: { name, value } }) => {
         setForm({ ...form, [name]: value })
     }
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault()
-        setLoading(true)
+        setLoading(true);
+        try {
+            await emailjs.send(
+                serviceID,
+                templateID,
+                {
+                    from_name: form.name,
+                    to_name: "CHAMX",
+                    from_email: form.email,
+                    to_email: "zakariyyahshamsudeen@gmail.com",
+                    message: form.message,
+                },
+                publicKey,
+            )
+            setLoading(false)
 
-        emailjs.send(serviceID: "service_cjaoh7u",)
+            setForm({
+                name: "",
+                email: "",
+                message: ""
+            })
+
+        } catch (error) {
+            setLoading(false)
+            console.log(error)
+        }
     }
 
     return (
         <section className="c-space my-20">
-            <div className="relative min-h-screen flex items-center justify-center flex-col">
-                <img src="assets/terminal.png" alt="terminal background" className="absolute inset-0 min-h-screen" />
-                <div className="contact-container">
+            <div className="relative min-h-screen flex items-center justify-center flex-col py-9">
+                <img src="assets/terminal.png" alt="terminal background" className="absolute inset-0 min-h-screen h-[100%]" />
+                <div className="contact-container mt-2">
                     <h3 className="head-text">Let&apos;s talk</h3>
                     <p className="text-lg text-white-600 mt-3">
                         Whether you&apos;re looking to build a website, improve your existing platform, or bring a unique project to life, I&apos;m here to help
@@ -44,7 +72,7 @@ const Contact = () => {
                                 onChange={handleChange}
                                 required
                                 className="field-input"
-                                placeholder="Shamsudeen Zakariyyah"
+                                placeholder="ex., Shamsudeen Zakariyyah"
                             />
                         </label>
                         <label className="space-y-3">
@@ -56,7 +84,7 @@ const Contact = () => {
                                 onChange={handleChange}
                                 required
                                 className="field-input"
-                                placeholder="ShamsudeenZakariyyah@gmail.com"
+                                placeholder="ex., ShamsudeenZakariyyah@gmail.com"
                             />
                         </label>
                         <label className="space-y-3">
