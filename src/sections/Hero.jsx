@@ -3,7 +3,7 @@ import { Canvas } from "@react-three/fiber"
 import HackerRoom from "../components/HackerRoom"
 import { Suspense } from "react"
 import CanvasLoader from "../components/CanvasLoader"
-// import { Leva, useControls } from "leva"
+import { Leva } from "leva"
 import { useMediaQuery } from "react-responsive"
 import { calculateSizes } from "../constants"
 import Target from "../components/Target"
@@ -32,11 +32,11 @@ function Hero() {
                 <p className="hero_tag text-gray_gradient">Building Products & Brands</p>
             </div>
 
-            <div className="min-h-screen w-full flex">
-                {/* <Leva /> */}
+            <div className="h-full w-full inset-0 absolute ">
+                <Leva hidden />
                 <Canvas className="w-full h-full">
                     <Suspense fallback={<CanvasLoader />}>
-                        <PerspectiveCamera makeDefault position={[0, 0, 20]} />
+                        <PerspectiveCamera makeDefault position={[0, 0, 30]} />
 
                         <HeroCamera isMobile={isMobile}>
 
