@@ -51,7 +51,7 @@ const About = () => {
                                 backgroundColor="rgba(0,0,0,0)"
                                 backgroundImageOpacity={0.5}
                                 showAtmosphere
-                                globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
+                                globeImageUrl="//unpkg.com/three-globe/example/img/earth-day.jpg"
                                 bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
                             />
                         </div>
