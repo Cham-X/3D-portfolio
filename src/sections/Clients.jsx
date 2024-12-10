@@ -14,7 +14,7 @@ const Clients = () => {
 
                                 <div className="client-content">
                                     <div className="flex gap-3">
-                                        <img src={review.img} alt={review.name} />
+                                        <img src={review.img} alt={review.name} className="rounded-full w-[5rem] h-[5rem]" />
                                         <div className="flex flex-col">
                                             <p className="font-semibold text-white-800">{review.name}</p>
                                             <p className="text-white-500 md:text-base text-sm ">{review.position}</p>
