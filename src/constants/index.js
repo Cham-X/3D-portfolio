@@ -27,13 +27,13 @@ export const clientReviews = [{
         img: 'assets/Screenshot_20241125-100937.png',
         review: 'A great team player, contributed to the front end development project of our team presentation at the google solution challenge 2022. Humble and passionate about solving real life problems ',
     },
-    {
-        id: 2,
-        name: 'Ernest Henry Wilson ',
-        position: 'Founder of Regal flowers',
-        img: 'assets/review2.png',
-        review: 'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-    },
+    // {
+    //     id: 2,
+    //     name: 'Ernest Henry Wilson ',
+    //     position: 'Founder of Regal flowers',
+    //     img: 'assets/review2.png',
+    //     review: 'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+    // },
 ];
 
 export const myProjects = [{
@@ -147,7 +147,42 @@ export const myProjects = [{
         desc: 'Muni is a groundbreaking Software-as-a-Service application that empowers users to monitor all their assets in a single app using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
         subdesc: 'Built with Next.js 14, Cloudinary AI, Muni combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
         href: 'https://munii.finance/',
-        texture: '/textures/project/Munii Finance - Google Chrome 2024-11-24 03-03-35.mp4',
+        texture: '/textures/project/Munii Finance - Revolutionize Your Personal Finance Management - Google Chrome 2025-08-16 18-23-18.mp4',
+        logo: '/assets/project-logo5.png',
+        logoStyle: {
+            backgroundColor: '#1C1A43',
+            border: '0.2px solid #252262',
+            boxShadow: '0px 0px 60px 0px #635BFF4D',
+        },
+        spotlight: '/assets/spotlight5.png',
+        tags: [{
+                id: 1,
+                name: 'React.js',
+                path: '/assets/react.svg',
+            },
+            {
+                id: 2,
+                name: 'TailwindCSS',
+                path: 'assets/tailwindcss.png',
+            },
+            {
+                id: 3,
+                name: 'TypeScript',
+                path: '/assets/typescript.png',
+            },
+            {
+                id: 4,
+                name: 'Framer Motion',
+                path: '/assets/framer.png',
+            },
+        ],
+    },
+    {
+        title: 'Tweakrr',
+        desc: 'Tweakrr automatically handles your in-text citations and reference lists. You write the brilliance, well handle the boring bits.',
+        subdesc: 'Built with Next.js 14,  Tweakrr combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
+        href: 'https://www.tweakrr.com/',
+        texture: '/textures/project/Tweakrr - Google Chrome 2025-08-16 18-29-16.mp4',
         logo: '/assets/project-logo5.png',
         logoStyle: {
             backgroundColor: '#1C1A43',

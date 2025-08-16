@@ -25,7 +25,7 @@ const About = () => {
                         <div>
                             <p className="grid-headtext">Hi, I&apos;m Shamsudeen (CHAMX)</p>
                             <p className="grid-subtext">
-                                With 6 years of Experience,I have honed my skills in frontend and backend development, with a focus on animate 3D website
+                                With 4 years of Experience,I have honed my skills in frontend and backend development.
                             </p>
                         </div>
                     </div>
@@ -37,7 +37,7 @@ const About = () => {
 
                         <div>
                             <p className="grid-headtext">Tech Stack</p>
-                            <p className="grid-subtext">I specialize in Javascript/Typescript with a focus on React</p>
+                            <p className="grid-subtext">I specialize in Javascript/Typescript with a focus on React,React-Native and Nodejs</p>
                         </div>
                     </div>
                 </div>
