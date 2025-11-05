@@ -40,7 +40,7 @@ export const myProjects = [
     {
         title: 'RegaL Flowers - Ecommerce Platfrom',
         desc: "Nigeria's most loved online flower shop with same day delivery in Lagos and Abuja",
-        subdesc: 'Built as a unique Ecommerce app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Regal flowers is designed for optimal performance and scalability.',
+        subdesc: 'Built as a unique Ecommerce app with Next.js 14,Express.js,Mongo DB,Firebase,stripe, Tailwind CSS, TypeScript, Framer Motion and Convex, Regal flowers is designed for optimal performance and scalability.',
         href: 'https://www.regalflowers.com.ng/?gad_source=1&gclid=Cj0KCQiAuou6BhDhARIsAIfgrn5xgpfibzaJCwcH0IG4vplm_AaxX6aaEAyypCN-U7tKP-y_f29cziMaAvUpEALw_wcB#contactSection',
         texture: '/textures/project/Regal Flowers _ Same Day Flower Delivery Shop in Lagos and Abuja, Nigeria - Google Chrome 2024-11-25 09-01-26.mp4',
         logo: '/assets/project-logo1.png',
