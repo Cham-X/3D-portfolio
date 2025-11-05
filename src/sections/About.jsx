@@ -23,7 +23,7 @@ const About = () => {
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container">
                         <div className="w-full rounded-full">
-                            <img src="assets/profile-image.jpg" alt="grid-1" className="w-full sm:h-[200px] h-fit object-contain rounded-full
+                            <img src="assets/profile-image.jpg" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain rounded-full
                             " />
                             </div>
 
