@@ -5,8 +5,9 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 
 const Target = (props) => {
-    const { scene } = useGLTF('https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/target-stand/model.gltf',
-    );
+    // const { scene } = useGLTF('https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/target-stand/model.gltf',
+    // );
+    const { scene } = useGLTF('https://cdn.jsdelivr.net/gh/KhronosGroup/glTF-Sample-Models/2.0/Target/glTF/Target.gltf');
     const targetRef = useRef();
 
     useGSAP(() => {
