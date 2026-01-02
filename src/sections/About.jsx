@@ -22,8 +22,8 @@ const About = () => {
             <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container">
-                        <div className="w-full rounded-full">
-                            <img src="assets/profile-image.jpg" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain rounded-full
+                        <div className="w-full rounde-md">
+                            <img src="assets/profile-image.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain rounded-md
                             " />
                             </div>
 
