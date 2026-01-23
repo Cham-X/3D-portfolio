@@ -15,7 +15,7 @@ const About = () => {
         }, 2000);
     }
 
-    const cuurentYear = new Date().getFullYear() - 2019
+    const currentYear = new Date().getFullYear() - 2021
 
     return (
         <section className="c-space my-20" id="about">
@@ -30,7 +30,7 @@ const About = () => {
                         <div>
                             <p className="grid-headtext">Hi, I&apos;m Shamsudeen (CHAMX)</p>
                             <p className="grid-subtext">
-                                With {cuurentYear} years of Experience,I have honed my skills in frontend and backend development,Fullstack Developer.
+                                With {currentYear} years of Experience,I have honed my skills in frontend and backend development,Fullstack Developer.
                             </p>
                         </div>
                     </div>

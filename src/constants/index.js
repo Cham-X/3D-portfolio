@@ -248,41 +248,41 @@ export const myProjects = [
             },
         ],
     },
-    {
-        title: 'NITDA E-Invoice',
-        desc: 'NITDA E-Invoice is a certification system built for fiscalization and digital compliance',
-        subdesc: 'Built with React.js, NITDA E-Invoice empowering Access Point Providers and System Integrators to easily navigate licensing for FIRS e-invoicing compliance.',
-        href: 'https://einvoicing.nitda.gov.ng/',
-        texture: '/textures/project/Landing Page _ NITDA - National Information Technology Development Agency - Google Chrome 2025-10-21 00-45-42.mp4',
-        logo: '/assets/project-logo5.png',
-        logoStyle: {
-            backgroundColor: '#1C1A43',
-            border: '0.2px solid #252262',
-            boxShadow: '0px 0px 60px 0px #635BFF4D',
-        },
-        spotlight: '/assets/spotlight5.png',
-        tags: [{
-                id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
-            },
-            {
-                id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
-            },
-            {
-                id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
-            },
-        ],
-    },
+    // {
+    //     title: 'NITDA E-Invoice',
+    //     desc: 'NITDA E-Invoice is a certification system built for fiscalization and digital compliance',
+    //     subdesc: 'Built with React.js, NITDA E-Invoice empowering Access Point Providers and System Integrators to easily navigate licensing for FIRS e-invoicing compliance.',
+    //     href: 'https://einvoicing.nitda.gov.ng/',
+    //     texture: '/textures/project/Landing Page _ NITDA - National Information Technology Development Agency - Google Chrome 2025-10-21 00-45-42.mp4',
+    //     logo: '/assets/project-logo5.png',
+    //     logoStyle: {
+    //         backgroundColor: '#1C1A43',
+    //         border: '0.2px solid #252262',
+    //         boxShadow: '0px 0px 60px 0px #635BFF4D',
+    //     },
+    //     spotlight: '/assets/spotlight5.png',
+    //     tags: [{
+    //             id: 1,
+    //             name: 'React.js',
+    //             path: '/assets/react.svg',
+    //         },
+    //         {
+    //             id: 2,
+    //             name: 'TailwindCSS',
+    //             path: 'assets/tailwindcss.png',
+    //         },
+    //         {
+    //             id: 3,
+    //             name: 'TypeScript',
+    //             path: '/assets/typescript.png',
+    //         },
+    //         {
+    //             id: 4,
+    //             name: 'Framer Motion',
+    //             path: '/assets/framer.png',
+    //         },
+    //     ],
+    // },
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
