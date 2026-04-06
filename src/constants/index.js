@@ -40,7 +40,7 @@ export const myProjects = [
     {
         title: 'RegaL Flowers - Ecommerce Platfrom',
         desc: "Nigeria's most loved online flower shop with same day delivery in Lagos and Abuja",
-        subdesc: 'Built as a unique Ecommerce app with Next.js 14,Express.js,Mongo DB,Firebase,stripe, Tailwind CSS, TypeScript, Framer Motion and Convex, Regal flowers is designed for optimal performance and scalability.',
+        subdesc: 'Built as a unique Ecommerce app with Next.js 14,Node.js,Mongo DB,Firebase,stripe, Tailwind CSS, TypeScript, Framer Motion and Convex, Regal flowers is designed for optimal performance and scalability.',
         href: 'https://www.regalflowers.com.ng/?gad_source=1&gclid=Cj0KCQiAuou6BhDhARIsAIfgrn5xgpfibzaJCwcH0IG4vplm_AaxX6aaEAyypCN-U7tKP-y_f29cziMaAvUpEALw_wcB#contactSection',
         texture: '/textures/project/Regal Flowers _ Same Day Flower Delivery Shop in Lagos and Abuja, Nigeria - Google Chrome 2024-11-25 09-01-26.mp4',
         logo: '/assets/project-logo1.png',
@@ -75,7 +75,7 @@ export const myProjects = [
     {
         title: 'MedHealthCatalyst - Health Management System',
         desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
-        subdesc: 'With a focus on efficiency, MedHealthCatalyst integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
+        subdesc: 'With a focus on efficiency, MedHealthCatalyst integrantes complex forms and SMS notifications, by using Next.js,Nodejs, Appwrite, Twillio and Sentry that enhance operational workflows.',
         href: 'https://med-health-catalyst-bpd5.vercel.app/',
         texture: '/textures/project/MedHealthCatalyst - Google Chrome 2024-11-25 08-37-26.mp4',
         logo: '/assets/project-logo3.png',
@@ -214,12 +214,12 @@ export const myProjects = [
         ],
     },
     {
-        title: 'NINAuth',
-        desc: ' NINAuth Enhance your privacy with outperforming authentication.',
-        subdesc: 'Built with React.js, NINAuth can be used for secure identification and digital signatures with thousands of companies and authorities. This gives you complete visibility over your privacy and enhances your security.',
-        href: 'https://ninauth.nimc.gov.ng/',
-        texture: '/textures/project/Home _ NINAuth - Secure Digital Identity Authentication - Google Chrome 2025-10-21 00-42-12.mp4',
-        logo: '/assets/project-logo5.png',
+        title: 'Rekrutklin',
+        desc: 'Rekrutklin is a revolutionary job matching platform that connects employers with top talent. Our AI-powered system ensures the best fit for both parties.',
+        subdesc: 'Built with Next.js 14 and Nodejs,  Rekrutklin combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
+        href: 'https://rekrutklin.com/',
+        texture: '/textures/project/rekrutklin - Google Chrome 2026-04-05 08-55-08.mp4',
+        logo: '/assets/LOGO.svg',
         logoStyle: {
             backgroundColor: '#1C1A43',
             border: '0.2px solid #252262',
@@ -249,11 +249,11 @@ export const myProjects = [
         ],
     },
     // {
-    //     title: 'NITDA E-Invoice',
-    //     desc: 'NITDA E-Invoice is a certification system built for fiscalization and digital compliance',
-    //     subdesc: 'Built with React.js, NITDA E-Invoice empowering Access Point Providers and System Integrators to easily navigate licensing for FIRS e-invoicing compliance.',
-    //     href: 'https://einvoicing.nitda.gov.ng/',
-    //     texture: '/textures/project/Landing Page _ NITDA - National Information Technology Development Agency - Google Chrome 2025-10-21 00-45-42.mp4',
+    //     title: 'NINAuth',
+    //     desc: ' NINAuth Enhance your privacy with outperforming authentication.',
+    //     subdesc: 'Built with React.js, NINAuth can be used for secure identification and digital signatures with thousands of companies and authorities. This gives you complete visibility over your privacy and enhances your security.',
+    //     href: 'https://ninauth.nimc.gov.ng/',
+    //     texture: '/textures/project/Home _ NINAuth - Secure Digital Identity Authentication - Google Chrome 2025-10-21 00-42-12.mp4',
     //     logo: '/assets/project-logo5.png',
     //     logoStyle: {
     //         backgroundColor: '#1C1A43',
