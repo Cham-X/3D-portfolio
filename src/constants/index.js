@@ -248,41 +248,41 @@ export const myProjects = [
             },
         ],
     },
-    // {
-    //     title: 'NINAuth',
-    //     desc: ' NINAuth Enhance your privacy with outperforming authentication.',
-    //     subdesc: 'Built with React.js, NINAuth can be used for secure identification and digital signatures with thousands of companies and authorities. This gives you complete visibility over your privacy and enhances your security.',
-    //     href: 'https://ninauth.nimc.gov.ng/',
-    //     texture: '/textures/project/Home _ NINAuth - Secure Digital Identity Authentication - Google Chrome 2025-10-21 00-42-12.mp4',
-    //     logo: '/assets/project-logo5.png',
-    //     logoStyle: {
-    //         backgroundColor: '#1C1A43',
-    //         border: '0.2px solid #252262',
-    //         boxShadow: '0px 0px 60px 0px #635BFF4D',
-    //     },
-    //     spotlight: '/assets/spotlight5.png',
-    //     tags: [{
-    //             id: 1,
-    //             name: 'React.js',
-    //             path: '/assets/react.svg',
-    //         },
-    //         {
-    //             id: 2,
-    //             name: 'TailwindCSS',
-    //             path: 'assets/tailwindcss.png',
-    //         },
-    //         {
-    //             id: 3,
-    //             name: 'TypeScript',
-    //             path: '/assets/typescript.png',
-    //         },
-    //         {
-    //             id: 4,
-    //             name: 'Framer Motion',
-    //             path: '/assets/framer.png',
-    //         },
-    //     ],
-    // },
+    {
+        title: 'NINAuth',
+        desc: ' NINAuth Enhance your privacy with outperforming authentication.',
+        subdesc: 'Built with React.js, NINAuth can be used for secure identification and digital signatures with thousands of companies and authorities. This gives you complete visibility over your privacy and enhances your security.',
+        href: 'https://ninauth.nimc.gov.ng/',
+        texture: '/textures/project/Home _ NINAuth - Secure Digital Identity Authentication - Google Chrome 2025-10-21 00-42-12.mp4',
+        logo: '/assets/project-logo5.png',
+        logoStyle: {
+            backgroundColor: '#1C1A43',
+            border: '0.2px solid #252262',
+            boxShadow: '0px 0px 60px 0px #635BFF4D',
+        },
+        spotlight: '/assets/spotlight5.png',
+        tags: [{
+                id: 1,
+                name: 'React.js',
+                path: '/assets/react.svg',
+            },
+            {
+                id: 2,
+                name: 'TailwindCSS',
+                path: 'assets/tailwindcss.png',
+            },
+            {
+                id: 3,
+                name: 'TypeScript',
+                path: '/assets/typescript.png',
+            },
+            {
+                id: 4,
+                name: 'Framer Motion',
+                path: '/assets/framer.png',
+            },
+        ],
+    },
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
