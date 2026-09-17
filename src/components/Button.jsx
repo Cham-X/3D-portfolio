@@ -1,5 +1,3 @@
-import { button } from "leva"
-
 const Button = ({ name, isBean = false, containerClass }) => {
     return (
         <button

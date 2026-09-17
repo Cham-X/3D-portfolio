@@ -17,6 +17,7 @@ const Contact = () => {
     })
 
     const [loading, setLoading] = useState(false)
+    const [status, setStatus] = useState("")
 
     const handleChange = ({ target: { name, value } }) => {
         setForm({ ...form, [name]: value })
@@ -25,6 +26,7 @@ const Contact = () => {
     const handleSubmit = async (e) => {
         e.preventDefault()
         setLoading(true);
+        setStatus("")
         try {
             await emailjs.send(
                 serviceID,
@@ -39,6 +41,7 @@ const Contact = () => {
                 publicKey,
             )
             setLoading(false)
+            setStatus("Thanks. Your enquiry is on its way.")
 
             setForm({
                 name: "",
@@ -48,6 +51,7 @@ const Contact = () => {
 
         } catch (error) {
             setLoading(false)
+            setStatus("Something went wrong. Please email me directly instead.")
             console.log(error)
         }
     }
@@ -55,16 +59,17 @@ const Contact = () => {
     return (
         <section className="c-space my-20" id="contact">
             <div className="relative min-h-screen flex items-center justify-center flex-col py-9">
-                <img src="assets/terminal.png" alt="terminal background" className="absolute inset-0 min-h-screen h-[100%]" />
+                <img src="assets/terminal.png" alt="terminal background" className="absolute inset-0 min-h-screen h-[100%] opacity-60" />
                 <div className="contact-container mt-2">
-                    <h3 className="head-text">Let&apos;s talk</h3>
-                    <p className="text-lg text-white-600 mt-3">
-                        Whether you&apos;re looking to build a website, improve your existing platform, or bring a unique project to life, I&apos;m here to help
+                    <p className="eyebrow">Contact</p>
+                    <h3 className="head-text">Let&apos;s build your next product milestone</h3>
+                    <p className="text-lg text-slate-300 mt-3">
+                        Need a senior engineer to turn strategy into a reliable product experience? I help teams design, ship, and scale digital products with strong engineering discipline and product thinking.
                     </p>
 
-                    <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">
+                    <form ref={formRef} onSubmit={handleSubmit} className="mt-10 flex flex-col space-y-6">
                         <label className="space-y-3">
-                            <span className="field-label">FullName</span>
+                            <span className="field-label">Full name</span>
                             <input
                                 type="text"
                                 name="name"
@@ -72,7 +77,7 @@ const Contact = () => {
                                 onChange={handleChange}
                                 required
                                 className="field-input"
-                                placeholder="ex., Shamsudeen Zakariyyah"
+                                placeholder="e.g. Jane Doe"
                             />
                         </label>
                         <label className="space-y-3">
@@ -84,11 +89,11 @@ const Contact = () => {
                                 onChange={handleChange}
                                 required
                                 className="field-input"
-                                placeholder="ex., ShamsudeenZakariyyah@gmail.com"
+                                placeholder="e.g. jane@company.com"
                             />
                         </label>
                         <label className="space-y-3">
-                            <span className="field-label">Your message</span>
+                            <span className="field-label">Project brief</span>
                             <textarea
                                 name="message"
                                 value={form.message}
@@ -96,14 +101,15 @@ const Contact = () => {
                                 required
                                 rows={3}
                                 className="field-input"
-                                placeholder="I wanna give you a job ..."
+                                placeholder="Tell me about your goals, timeline, and what success looks like."
                             />
                         </label>
 
                         <button className="field-btn" type="submit" disabled={loading}>
-                            {loading ? "Sending..." : "Send Message"}
+                            {loading ? "Sending..." : "Send inquiry"}
                             <img src="assets/arrow-up.png" alt="arrow-up" className="field-btn_arrow" />
                         </button>
+                        {status && <p className="form-status" role="status">{status}</p>}
                     </form>
                 </div>
             </div>

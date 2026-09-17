@@ -1,31 +1,25 @@
 
 const Footer = () => {
     return (
-        <section className="c-space pt-7 pb-3 border-t border-black-300 flex justify-between items-center flex-wrap gap-5 bg-black/90">
-            <div className="text-white-500 flex gap-2">
-                <p>Terms & Conditions</p>
+        <section className="c-space pt-7 pb-3 border-t border-white/10 flex justify-between items-center flex-wrap gap-5 bg-[#071013]/80">
+            <div className="text-slate-300 flex gap-2 flex-wrap">
+                <p>Available for remote work</p>
                 <p>|</p>
-                <p>Privacy Policy</p>
+                <p>Senior Full-Stack Engineer</p>
             </div>
-            <div className="flex gap-3">
-                <div className="social-icon ite">
-                    <a href="https://github.com/Cham-X">
-                        <img src="assets/github.svg" alt="github" className="w-1/2 h-1/2" />
-                    </a>
-                </div>
-                <div className="social-icon">
-                    <a href="https://github.com/Cham-X">
-                        <img src="assets/twitter.svg" alt="twitter" className="w-1/2 h-1/2" />
-                    </a>
-                </div>
-                <div className="social-icon">
-                    <a href="https://github.com/Cham-X">
-                        <img src="assets/instagram.svg" alt="instagram" className="w-1/2 h-1/2" />
-                    </a>
-                </div>
+            <div className="social-links">
+                <a className="social-icon" href="https://github.com/Cham-X" target="_blank" rel="noreferrer" aria-label="GitHub">
+                    <img src="assets/github.svg" alt="" />
+                </a>
+                <a className="social-icon" href="https://www.linkedin.com/in/shamsudeen-zakariyyah/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                    <img src="assets/twitter.svg" alt="" />
+                </a>
+                <a className="social-icon" href="https://www.instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram">
+                    <img src="assets/instagram.svg" alt="" />
+                </a>
             </div>
 
-            <p className="text-white-500">&copy; {new Date().getFullYear()} CHAMX. All right reserved.</p>
+            <p className="text-slate-400">&copy; {new Date().getFullYear()} Shamsudeen Zakariyyah. All rights reserved.</p>
         </section>
     )
 }

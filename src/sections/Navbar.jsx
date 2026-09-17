@@ -28,17 +28,17 @@ function Navbar() {
     }
 
     return (
-        <header className="fixed top-0 left-0 right-0 z-50 bg-black/90">
+        <header className="fixed top-0 left-0 right-0 z-50 glass-panel">
             <div className="max-w-7xl mx-auto">
                 <div className="flex justify-between items-center py-5 mx-auto c-space">
-                    <a href="/" className="text-neutral-400 font-bold text-xl hover:text-white transition-colors">
-                        CHAMX
+                    <a href="#home" className="brand-mark text-neutral-200 font-bold text-xl hover:text-white transition-colors tracking-[0.25em] uppercase">
+                        SZ
                     </a>
 
                     <button onClick={toggleMenu}
-                        className="text-neutral-400 focus:outline-none sm:hidden flex hover:text-white transition-colors"
+                        className="menu-toggle text-neutral-400 focus:outline-none sm:hidden flex hover:text-white transition-colors"
 
-                        aria-label="Toggle-menu">
+                        aria-label={isOpen ? "Close menu" : "Open menu"}>
                         <img src={isOpen ? "assets/close.svg" : "assets/menu.svg"} alt="menu" className="w-6 h-6" />
                     </button>
 
