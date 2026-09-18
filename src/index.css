@@ -372,7 +372,7 @@ body {
 
 .splash-mark span { color: #bef264; }
 .startup-splash p { color: #728688; font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; }
-.splash-track { width: 130px; height: 2px; overflow: hidden; background: rgba(190, 242, 100, 0.16); }
+.splash-track { width: 180px; height: 2px; overflow: hidden; background: rgba(190, 242, 100, 0.16); }
 .splash-track i { display: block; width: 45%; height: 100%; background: #bef264; animation: splash-progress 1s ease-in-out infinite; }
 
 @keyframes splash-progress { 0% { transform: translateX(-120%); } 100% { transform: translateX(320%); } }

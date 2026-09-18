@@ -32,7 +32,7 @@ function Navbar() {
             <div className="max-w-7xl mx-auto">
                 <div className="flex justify-between items-center py-5 mx-auto c-space">
                     <a href="#home" className="brand-mark text-neutral-200 font-bold text-xl hover:text-white transition-colors tracking-[0.25em] uppercase">
-                        SZ
+                        ChamX
                     </a>
 
                     <button onClick={toggleMenu}

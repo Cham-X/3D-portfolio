@@ -18,7 +18,7 @@ const App = () => {
     <>
       {isLoading && (
         <div className="startup-splash" role="status" aria-label="Loading portfolio">
-          <div className="splash-mark">SZ<span>.</span></div>
+          <div className="splash-mark">ChamX<span>.</span></div>
           <div className="splash-track"><i /></div>
           <p>loading the workspace</p>
         </div>
