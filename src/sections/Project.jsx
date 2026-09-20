@@ -61,15 +61,41 @@ const Project = () => {
                             })}
                         </div>
 
-                        <a
-                            href={currentProject.href}
-                            target={currentProject.href.startsWith('#') ? undefined : '_blank'}
-                            rel={currentProject.href.startsWith('#') ? undefined : 'noreferrer'}
-                            className="flex items-center gap-2 cursor-pointer text-white-600"
-                        >
-                            <p>Open live product</p>
-                            <img src="assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
-                        </a>
+                        <div className="flex items-center gap-4 flex-wrap">
+                            <a
+                                href={currentProject.href}
+                                target={currentProject.href.startsWith('#') ? undefined : '_blank'}
+                                rel={currentProject.href.startsWith('#') ? undefined : 'noreferrer'}
+                                className="flex items-center gap-2 cursor-pointer text-white-600"
+                            >
+                                <p>Open live product</p>
+                                <img src="assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
+                            </a>
+
+                            {currentProject.appStoreHref && (
+                                <a
+                                    href={currentProject.appStoreHref}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="flex items-center gap-2 cursor-pointer text-white-600"
+                                >
+                                    <p>Open Google Play</p>
+                                    <img src="assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
+                                </a>
+                            )}
+
+                            {currentProject.iosAppHref && (
+                                <a
+                                    href={currentProject.iosAppHref}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="flex items-center gap-2 cursor-pointer text-white-600"
+                                >
+                                    <p>Open App Store</p>
+                                    <img src="assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
+                                </a>
+                            )}
+                        </div>
                     </div>
 
                     <div className="flex justify-between items-center mt-7">

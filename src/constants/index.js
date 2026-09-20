@@ -148,6 +148,8 @@ export const myProjects = [
         desc: 'Mobile expense management experience designed for fast capture, clear spending awareness, and everyday financial control.',
         subdesc: 'I shaped the product around small-screen interactions, readable insights, reusable React Native components, and responsive companion web flows.',
         href: 'https://truxpense.com/',
+        appStoreHref: 'https://play.google.com/store/apps/details?id=com.truxpense',
+        iosAppHref: 'https://apps.apple.com/ng/app/truxpense/id6756526744',
         texture: '/textures/project/truxpense.mp4',
         logo: '/assets/project-logo5.png',
         logoStyle: {
@@ -170,6 +172,7 @@ export const myProjects = [
         desc: 'Recruitment marketplace connecting employers and candidates through focused web and mobile journeys.',
         subdesc: 'I built responsive product flows for job discovery, candidate engagement, and employer workflows, with mobile-first interaction patterns that support real usage on the go.',
         href: 'https://rekrutklin.com/',
+        appStoreHref: 'https://play.google.com/store/apps/details?id=com.rekrutklin.mobile',
         texture: '/textures/project/rekrutklin.mp4',
         logo: '/assets/LOGO.svg',
         logoStyle: {
