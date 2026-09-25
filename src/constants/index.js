@@ -232,28 +232,6 @@ export const myProjects = [
             { id: 4, name: 'Scalable UI' },
         ],
     },
-    {
-        title: 'NINAuth',
-        platform: 'Web / Security',
-        role: 'Identity platform · authentication · verification',
-        desc: 'Secure identity and authentication experience focused on privacy, trust, and digital verification.',
-        subdesc: 'Built for secure workflows, clean UX, and enterprise-ready frontend architecture with a strong emphasis on reliability and clarity.',
-        href: 'https://ninauth.nimc.gov.ng/',
-        texture: '/textures/project/Home _ NINAuth - Secure Digital Identity Authentication - Google Chrome 2025-10-21 00-42-12.mp4',
-        logo: '/assets/project-logo5.png',
-        logoStyle: {
-            backgroundColor: '#1C1A43',
-            border: '0.2px solid #252262',
-            boxShadow: '0px 0px 60px 0px #635BFF4D',
-        },
-        spotlight: '/assets/spotlight5.png',
-        tags: [
-            { id: 1, name: 'React.js', path: '/assets/react.svg' },
-            { id: 2, name: 'Security' },
-            { id: 3, name: 'TypeScript', path: '/assets/typescript.png' },
-            { id: 4, name: 'Design Systems' },
-        ],
-    },
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
